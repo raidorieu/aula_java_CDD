@@ -1,0 +1,25 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class atividade3 { 
+public static void main(String[] args) {
+	Scanner entrada= new Scanner(System.in);
+	int dado;
+	
+	int arrayA[] = new int [10];
+	int arrayB[] = new int [10];
+	int arrayC[] = new int [10];
+	int arrayD[] = new int [10];
+	 
+		for(int i=0; i<=9; i++) {
+			System.out.printf("Digite um número: ");
+			arrayA[i] = entrada.nextInt();
+	}
+		System.out.printf("O Array tem os seguintes dados: ");
+		
+		for(int z: arrayA) {
+			System.out.println(z+" ");
+		}
+}
+}
