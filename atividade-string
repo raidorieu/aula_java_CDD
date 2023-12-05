@@ -1,0 +1,12 @@
+package exercicio1;
+
+import java.util.StringTokenizer;
+
+public class string2 {public static void main(String[] args) {
+	
+	String str = "Bernardo ";
+	String resultado = str.trim();
+	System.out.println(resultado);
+	
+}
+}
