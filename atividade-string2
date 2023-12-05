@@ -1,0 +1,11 @@
+package exercicio1;
+
+import java.util.StringTokenizer;
+
+public class string2 {public static void main(String[] args) {
+	
+	StringTokenizer exemplo = new StringTokenizer("Estou estudando mas estou com sono");
+	System.out.println(exemplo.countTokens());
+	
+}
+}
