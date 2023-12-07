@@ -1,0 +1,12 @@
+package aula5;
+
+public class exercicio1 { 
+	
+	public static void main(String[] args) {
+		pessoa aluno01 = new pessoa();
+		aluno01.nome = "Wellington";
+		System.out.println(aluno01.nome);
+		aluno01.comer();
+	}
+
+}
