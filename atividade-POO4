@@ -1,0 +1,20 @@
+package aula5;
+
+public class Concessionaria {
+	public static void main(String[] args) {
+		
+		Carro kombi= new Carro();
+		Carro kombiAzul= new Carro("azul", "Kombi");
+		Carro kombiBranca= new Carro("branca", "Kombi", 15000);
+		
+		kombi.cor="verde";
+		kombi.modelo="Kombi";
+		kombi.preco=15000;
+		
+		
+		
+		
+
+	}
+
+}
