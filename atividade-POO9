@@ -1,0 +1,18 @@
+package aula5;
+
+public class printoretorno {
+
+	public static void main(String[] args) {
+		
+	int idade;	
+	double valor;
+	String nome;
+		metodos aluno02 = new metodos();
+		
+		idade=aluno02.idade();
+		valor=aluno02.valor();
+		nome=aluno02.nome();
+		
+			System.out.printf("A idade do aluno é %s ele tem %d anos.", nome, idade);
+	}
+}
