@@ -1,0 +1,33 @@
+package aula5;
+
+import java.util.Scanner;
+
+public class Calculadora {
+	public static void main(String[] args) {
+		int numero1;
+		int numero2;
+		int x;
+		
+		Scanner a= new Scanner(System.in);
+		Scanner b= new Scanner(System.in);
+		
+		System.out.print("digite um número: ");
+		numero1=a.nextInt();
+		System.out.print("digite mais número: ");
+		numero2=b.nextInt();
+		
+		SomarMetodos soma = new SomarMetodos();
+		Multiplicar multiplicacao = new Multiplicar();
+		
+				
+		x = soma.somar(numero1, numero2);
+		System.out.printf("a soma desses número da: %d", x);
+		
+		x = multiplicacao.multiplicar(numero1,numero2);
+		System.out.printf("a multiplicação desses número da: %d", x);
+		
+		
+		
+		
+	}
+}
