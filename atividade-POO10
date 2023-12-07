@@ -1,0 +1,13 @@
+package aula5;
+
+public class SegundaClasse {
+
+	public static void main(String[] args) {
+		pessoa aluno01 = new pessoa();
+		pessoa aluno02 = new pessoa();
+		aluno01.nome="João";
+		aluno02.nome="Maria";
+		System.out.println(aluno01.nome);
+		System.out.println(aluno02.nome);
+	}
+}
