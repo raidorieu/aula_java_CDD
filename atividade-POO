@@ -1,0 +1,8 @@
+package aula5;
+
+public class AtributosClasses {
+
+	String fnome="Wellington";
+	String inome="Oliveira";
+	int idade=42;
+}
