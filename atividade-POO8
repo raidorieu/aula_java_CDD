@@ -1,0 +1,11 @@
+package aula5;
+
+public class pessoa {
+
+	String nome;
+	public void comer(){
+		System.out.println("Está comendo");
+		
+	}
+	
+}
